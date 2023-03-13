@@ -2,11 +2,11 @@ import React from "react";
 
 import ProductCard from "./ProductCard";
 
-import chair from "@/public/product-chair.svg";
-import microphone from "@/public/product-microphone.svg";
-import shaver from "@/public/product-shaver.svg";
-import closet from "@/public/product-closet.svg";
-import curtains from "@/public/product-curtains.svg";
+import chair from "@/public/images/product-chair.svg";
+import microphone from "@/public/images/product-microphone.svg";
+import shaver from "@/public/images/product-shaver.svg";
+import closet from "@/public/images/product-closet.svg";
+import curtains from "@/public/images/product-curtains.svg";
 
 const Offers = () => {
   return (

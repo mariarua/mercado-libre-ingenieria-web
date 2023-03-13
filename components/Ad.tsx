@@ -2,9 +2,9 @@ import React from "react";
 
 import Image from "next/image";
 
-import disney from "@/public/ad-disney.svg";
-import hbo from "@/public/ad-hbo.svg";
-import paramount from "@/public/ad-paramount.svg";
+import disney from "@/public/images/ad-disney.svg";
+import hbo from "@/public/images/ad-hbo.svg";
+import paramount from "@/public/images/ad-paramount.svg";
 
 const Ad = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../public/logo-header.svg";
+import logo from "../public/images/logo-header.svg";
 import SearchBar from "./SearchBar";
 import ToolBar from "./ToolBar";
 

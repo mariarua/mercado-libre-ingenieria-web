@@ -15,11 +15,11 @@ module.exports = {
         homepage: "#EBEBEB",
         link: "#3483FA",
         offers: "#00A650",
-        subscribe: "#3483FA",
       },
       boxShadow: {
         narrow: "0 1px 2px 0 rgb(0 0 0 / 20%)",
         extranarrow: "0px 1px 1px rgba(0, 0, 0, 0.1)",
+        m: "0 2px 15px 0 rgb(0 0 0 / 10%)",
       },
     },
   },
