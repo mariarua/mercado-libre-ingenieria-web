@@ -36,7 +36,7 @@ const Subscription = () => {
         </div>
       </div>
       <div className="flex justify-end">
-        <button className="bg-subscribe text-white py-3 px-6 rounded-lg m-4 mr-8">
+        <button className="bg-link text-white py-3 px-6 rounded-lg m-4 mr-8">
           Suscríbete
         </button>
       </div>
