@@ -2,6 +2,12 @@ import React from "react";
 
 import ProductCard from "./ProductCard";
 
+import chair from "@/public/product-chair.svg";
+import microphone from "@/public/product-microphone.svg";
+import shaver from "@/public/product-shaver.svg";
+import closet from "@/public/product-closet.svg";
+import curtains from "@/public/product-curtains.svg";
+
 const Offers = () => {
   return (
     <div>
@@ -11,9 +17,42 @@ const Offers = () => {
           Ver todas
         </span>
       </h3>
-      <div className="flex">
-        <ProductCard />
-        <ProductCard />
+      <div className="flex gap-4">
+        <ProductCard
+          src={chair}
+          price="210.900"
+          offer="32% OFF"
+          shipping={true}
+          full={false}
+        />
+        <ProductCard
+          src={microphone}
+          price="74.990"
+          offer="25% OFF"
+          shipping={true}
+          full={true}
+        />
+        <ProductCard
+          src={shaver}
+          price="134.950"
+          offer="50% OFF"
+          shipping={true}
+          full={false}
+        />
+        <ProductCard
+          src={closet}
+          price="149.900"
+          offer="30% OFF"
+          shipping={true}
+          full={false}
+        />
+        <ProductCard
+          src={curtains}
+          price="69.990"
+          offer="17% OFF"
+          shipping={false}
+          full={true}
+        />
       </div>
     </div>
   );
