@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import Banner from "@/public/Banner.svg";
 import PaymentInfo from "@/components/PaymentInfo";
+import ProductCard from "@/components/ProductCard";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -40,6 +41,11 @@ export default function Home() {
               Ver todas
             </span>
           </h3>
+          <div className="flex">
+            <ProductCard />
+            <ProductCard />
+          </div>
+          <h3>Probanding</h3>
         </div>
       </div>
     </div>
