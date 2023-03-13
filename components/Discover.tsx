@@ -2,8 +2,8 @@ import React from "react";
 
 import PromoAd from "./PromoAd";
 
-import furniture from "@/public/discover-furniture.jpg";
-import subscription from "@/public/discover-subscription.jpg";
+import furniture from "@/public/images/discover-furniture.jpg";
+import subscription from "@/public/images/discover-subscription.jpg";
 
 const Discover = () => {
   return (
