@@ -2,7 +2,7 @@ import React from "react";
 
 import Image, { StaticImageData } from "next/image";
 
-import furniture from "@/public/discover-furniture.svg";
+import furniture from "@/public/images/discover-furniture.jpg";
 
 type PromoAdProps = {
   src: StaticImageData | string;

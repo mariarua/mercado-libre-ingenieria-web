@@ -1,17 +1,17 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import { Roboto } from "next/font/google";
 
 import Header from "@/components/Header";
-import Image from "next/image";
-import Banner from "@/public/Banner.svg";
 import PaymentInfo from "@/components/PaymentInfo";
 import Offers from "@/components/Offers";
 import Subscription from "@/components/Subscription";
 import Ad from "@/components/Ad";
-
 import Branches from "@/components/Branches";
 import Discover from "@/components/Discover";
+
+import Banner from "@/public/images/Banner.svg";
 
 const roboto = Roboto({
   subsets: ["latin"],

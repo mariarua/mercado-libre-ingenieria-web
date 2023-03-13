@@ -2,10 +2,10 @@ import React from "react";
 
 import Image from "next/image";
 
-import subscription from "@/public/subscription.svg";
-import disney from "@/public/logo-disney.svg";
-import star from "@/public/logo-star.svg";
-import shipping from "@/public/shipping.svg";
+import subscription from "@/public/images/subscription.svg";
+import disney from "@/public/images/logo-disney.svg";
+import star from "@/public/images/logo-star.svg";
+import shipping from "@/public/images/shipping.svg";
 
 const Subscription = () => {
   return (

@@ -3,10 +3,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import creditcard from "@/public/credit-card.svg";
-import transfer from "@/public/transfer.svg";
-import paymentagreement from "@/public/payment-agreement.svg";
-import viewmore from "@/public/view-more.svg";
+import creditcard from "@/public/images/credit-card.svg";
+import transfer from "@/public/images/transfer.svg";
+import paymentagreement from "@/public/images/payment-agreement.svg";
+import viewmore from "@/public/images/view-more.svg";
 
 const PaymentInfo = () => {
   return (

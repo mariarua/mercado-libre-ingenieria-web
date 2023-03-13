@@ -2,10 +2,10 @@ import React from "react";
 
 import Image from "next/image";
 
-import lego from "@/public/lego.svg";
-import xiaomi from "@/public/xiaomi.svg";
-import oster from "@/public/oster.svg";
-import nikon from "@/public/nikon.svg";
+import lego from "@/public/images/lego.svg";
+import xiaomi from "@/public/images/xiaomi.svg";
+import oster from "@/public/images/oster.svg";
+import nikon from "@/public/images/nikon.svg";
 
 const Branches = () => {
   return (

@@ -2,8 +2,8 @@ import React from "react";
 
 import Image from "next/image";
 
-import product from "@/public/product-chair.svg";
-import fullIcon from "@/public/full.svg";
+import product from "@/public/images/product-chair.svg";
+import fullIcon from "@/public/images/full.svg";
 
 type ProductCardProps = {
   src: string;
