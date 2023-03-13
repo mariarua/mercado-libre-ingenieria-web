@@ -11,6 +11,7 @@ import Ad from "@/components/Ad";
 import Branches from "@/components/Branches";
 import Discover from "@/components/Discover";
 import Collections from "@/components/Collections";
+import Category from "@/components/Category";
 
 import Banner from "@/public/images/Banner.svg";
 
@@ -47,6 +48,7 @@ export default function Home() {
           <Discover />
           <Branches />
           <Collections />
+          <Category />
           <h3>Probanding</h3>
         </div>
       </div>
