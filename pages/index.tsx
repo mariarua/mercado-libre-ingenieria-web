@@ -10,6 +10,7 @@ import Subscription from "@/components/Subscription";
 import Ad from "@/components/Ad";
 import Branches from "@/components/Branches";
 import Discover from "@/components/Discover";
+import Collections from "@/components/Collections";
 
 import Banner from "@/public/images/Banner.svg";
 
@@ -45,6 +46,7 @@ export default function Home() {
           <Ad />
           <Discover />
           <Branches />
+          <Collections />
           <h3>Probanding</h3>
         </div>
       </div>
