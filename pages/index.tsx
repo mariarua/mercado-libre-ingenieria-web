@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import Banner from "@/public/Banner.svg";
 import PaymentInfo from "@/components/PaymentInfo";
+import Offers from "@/components/Offers";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -34,12 +35,8 @@ export default function Home() {
         />
         <div className="mx-40">
           <PaymentInfo />
-          <h3 className="text-[25px] text-[#666666] font-thin">
-            Ofertas{" "}
-            <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
-              Ver todas
-            </span>
-          </h3>
+          <Offers />
+          <h3>Probanding</h3>
         </div>
       </div>
     </div>
