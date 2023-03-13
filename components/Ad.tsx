@@ -8,7 +8,7 @@ import paramount from "@/public/ad-paramount.svg";
 
 const Ad = () => {
   return (
-    <section>
+    <section className="mb-24">
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Beneficios de Mercado puntos{" "}
         <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
@@ -26,14 +26,14 @@ const Ad = () => {
         <Image
           className=""
           src={hbo}
-          alt="Anuncio de disney+"
+          alt="Anuncio de hbo+"
           width={384}
           height={255}
         />
         <Image
           className=""
           src={paramount}
-          alt="Anuncio de disney+"
+          alt="Anuncio de paramount+"
           width={384}
           height={255}
         />

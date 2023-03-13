@@ -9,6 +9,7 @@ import PaymentInfo from "@/components/PaymentInfo";
 import Offers from "@/components/Offers";
 import Subscription from "@/components/Subscription";
 import Ad from "@/components/Ad";
+import Discover from "@/components/Discover";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function Home() {
           <Offers />
           <Subscription />
           <Ad />
+          <Discover />
           <h3>Probanding</h3>
         </div>
       </div>
