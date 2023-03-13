@@ -10,8 +10,8 @@ import curtains from "@/public/product-curtains.svg";
 
 const Offers = () => {
   return (
-    <div>
-      <h3 className="text-[25px] text-[#666666] font-thin">
+    <div className="mb-14">
+      <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Ofertas{" "}
         <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
           Ver todas
