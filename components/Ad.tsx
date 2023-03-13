@@ -8,7 +8,7 @@ import paramount from "@/public/ad-paramount.svg";
 
 const Ad = () => {
   return (
-    <section>
+    <section className="mb-14">
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Beneficios de Mercado puntos{" "}
         <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
