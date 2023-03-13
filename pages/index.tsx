@@ -8,6 +8,7 @@ import Banner from "@/public/Banner.svg";
 import PaymentInfo from "@/components/PaymentInfo";
 import Offers from "@/components/Offers";
 import Subscription from "@/components/Subscription";
+import Ad from "@/components/Ad";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function Home() {
           <PaymentInfo />
           <Offers />
           <Subscription />
+          <Ad />
           <h3>Probanding</h3>
         </div>
       </div>

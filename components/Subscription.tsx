@@ -9,7 +9,7 @@ import shipping from "@/public/shipping.svg";
 
 const Subscription = () => {
   return (
-    <section className="bg-white rounded-[4px] text-[15px] shadow-extranarrow">
+    <section className="bg-white rounded-[4px] text-[15px] shadow-extranarrow mb-20">
       <Image
         className="w-full rounded-t-[4px]"
         src={subscription}
