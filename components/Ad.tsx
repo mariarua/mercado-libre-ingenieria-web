@@ -26,14 +26,14 @@ const Ad = () => {
         <Image
           className=""
           src={hbo}
-          alt="Anuncio de disney+"
+          alt="Anuncio de hbo+"
           width={384}
           height={255}
         />
         <Image
           className=""
           src={paramount}
-          alt="Anuncio de disney+"
+          alt="Anuncio de paramount+"
           width={384}
           height={255}
         />
