@@ -12,6 +12,7 @@ import Branches from "@/components/Branches";
 import Discover from "@/components/Discover";
 import Collections from "@/components/Collections";
 import Category from "@/components/Category";
+import Footer from "@/components/Footer";
 
 import Banner from "@/public/images/Banner.svg";
 
@@ -40,7 +41,7 @@ export default function Home() {
           width={1512}
           height={34}
         />
-        <div className="mx-40">
+        <div className="mx-40 mb-5">
           <PaymentInfo />
           <Offers />
           <Subscription />
@@ -49,8 +50,8 @@ export default function Home() {
           <Branches />
           <Collections />
           <Category />
-          <h3>Probanding</h3>
         </div>
+        <Footer />
       </div>
     </div>
   );
