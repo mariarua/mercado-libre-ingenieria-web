@@ -34,7 +34,7 @@ const Branches = () => {
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Las mejores tiendas te esperan{" "}
         <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
-          Ver todas las tiendas
+          Ver tiendas
         </span>
       </h3>
       <div className="flex gap-4">

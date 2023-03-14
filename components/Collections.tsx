@@ -30,7 +30,7 @@ const Collections = () => {
       </div>
 
       <div className="flex gap-4">
-        <div className="bg-white">
+        <div className="bg-white shadow-extranarrow">
           <Image
             className="rounded-t-[4px]"
             src={product1}
@@ -50,28 +50,28 @@ const Collections = () => {
         <div className="gap-4">
           <div className="flex gap-4 mb-4">
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product2}
               alt="Imagen producto eucerin"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product3}
               alt="Imagen producto cicatricure"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product4}
               alt="Imagen producto nivea"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product5}
               alt="Imagen producto cicatricure"
               width={184}
@@ -80,28 +80,28 @@ const Collections = () => {
           </div>
           <div className="flex gap-4">
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product6}
               alt="Imagen producto nissin"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product7}
               alt="Imagen producto la lico"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product8}
               alt="Imagen producto eucerin"
               width={184}
               height={184}
             />
             <Image
-              className="rounded-t-[4px]"
+              className="rounded-t-[4px] shadow-extranarrow"
               src={product9}
               alt="Imagen producto tio nacho"
               width={184}
