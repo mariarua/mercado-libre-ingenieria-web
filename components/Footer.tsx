@@ -11,7 +11,7 @@ import sic from "@/public/images/sic.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-white pt-10">
+    <footer className="bg-white">
       <div className="grid grid-cols-3 text-center px-48 pt-20 pb-14 w-full">
         <div className="relative flex flex-col align-middle justify-center px-10 after:content[''] after:absolute after:right-0 after:bg-[#E2E2E2] after:h-1/3 after:w-[1px]">
           <Image

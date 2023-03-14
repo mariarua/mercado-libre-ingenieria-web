@@ -4,7 +4,7 @@ const ToolBar = () => {
   return (
     <div className="flex text-[13px] w-full py-3">
       <button className="ml-44 mr-20">Ingresa tu domicilio</button>
-      <nav className="text-black/60 mr-36">
+      <nav className="text-black/50 mr-36">
         <ul className="flex justify-between">
           <select
             className="bg-primary px-2"
