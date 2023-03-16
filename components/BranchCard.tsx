@@ -36,7 +36,7 @@ const BranchCard = ({
   companyName = "Lego",
 }: BrachCardProps) => {
   return (
-    <div className="bg-white rounded-[4px] shadow-extranarrow">
+    <div className="bg-white rounded-[4px] shadow-extranarrow w-full">
       <div className="mb-14 relative">
         <Image
           className="rounded-t-[4px]"
