@@ -15,28 +15,10 @@ const Ad = () => {
           Ver todos los beneficios
         </span>
       </h3>
-      <div className="flex gap-4">
-        <Image
-          className=""
-          src={disney}
-          alt="Anuncio de disney+"
-          width={384}
-          height={255}
-        />
-        <Image
-          className=""
-          src={hbo}
-          alt="Anuncio de hbo+"
-          width={384}
-          height={255}
-        />
-        <Image
-          className=""
-          src={paramount}
-          alt="Anuncio de paramount+"
-          width={384}
-          height={255}
-        />
+      <div className="grid grid-cols-3 text-center gap-4">
+        <Image className="w-full" src={disney} alt="Anuncio de disney+" />
+        <Image className="w-full" src={hbo} alt="Anuncio de hbo+" />
+        <Image className="w-full" src={paramount} alt="Anuncio de paramount+" />
       </div>
     </section>
   );

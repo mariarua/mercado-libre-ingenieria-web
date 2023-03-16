@@ -23,13 +23,11 @@ const ProductCard = ({
   return (
     <article className="bg-white shadow-extranarrow rounded-[4px]">
       <Image
-        className="border-solid border-b-[1px]"
+        className="border-solid border-b-[1px] w-full"
         src={src}
         alt="Imagen silla de escritorio"
-        width={224}
-        height={224}
       />
-      <div className="ml-4 mt-5 ">
+      <div className="ml-4 mt-5">
         <div>
           <span className="text-[23px] mr-3">${price}</span>
           <span className="text-[14px] text-offers font-light">{offer}</span>
