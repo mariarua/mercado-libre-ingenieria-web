@@ -10,14 +10,14 @@ import curtains from "@/public/images/product-curtains.svg";
 
 const Offers = () => {
   return (
-    <div className="mb-14">
+    <div className="mb-14 w-desktop max-w-full">
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Ofertas{" "}
         <span className="ml-4 text-[15px] text-link font-light cursor-pointer">
           Ver todas
         </span>
       </h3>
-      <div className="flex gap-4">
+      <div className="grid grid-cols-5 gap-4">
         <ProductCard
           src={chair}
           price="210.900"
