@@ -14,7 +14,7 @@ import Collections from "@/components/Collections";
 import Category from "@/components/Category";
 import Footer from "@/components/Footer";
 
-import Banner from "@/public/images/Banner.svg";
+import Banner from "@/public/images/novedades-principales.svg";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -34,14 +34,14 @@ export default function Home() {
       </Head>
       <div className="bg-homepage">
         <Header />
-        <Image
-          className="w-screen mb-10"
-          src={Banner}
-          alt="Banner semana de la mujer "
-          width={1512}
-          height={34}
-        />
-        <div className="mx-40 mb-5">
+        <div className="mx-auto w-desktop max-w-full">
+          <Image
+            className="w-desktop max-w-full mb-10"
+            src={Banner}
+            alt="Banner semana de la mujer "
+            width={1512}
+            height={34}
+          />
           <PaymentInfo />
           <Offers />
           <Subscription />
