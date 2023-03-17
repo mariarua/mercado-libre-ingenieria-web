@@ -21,7 +21,7 @@ const ProductCard = ({
   full = false,
 }: ProductCardProps) => {
   return (
-    <article className="bg-white shadow-extranarrow rounded-[4px]">
+    <article className="bg-white shadow-extranarrow rounded-m">
       <Image
         className="border-solid border-b-[1px] w-full"
         src={src}

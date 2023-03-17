@@ -27,7 +27,7 @@ const PromoAd = ({
   return (
     <div
       className={cn(
-        "bg-white flex justify-between rounded-[4px] shadow-extranarrow",
+        "bg-white flex justify-between rounded-m shadow-extranarrow",
         className
       )}
     >
@@ -47,7 +47,7 @@ const PromoAd = ({
       </div>
       <div className="w-1/2 flex justify-end">
         <Image
-          className="rounded-[4px] w-auto h-full object-cover object-left"
+          className="rounded-m w-auto h-full object-cover object-left"
           src={src}
           alt={alt}
         />

@@ -16,8 +16,8 @@ const Ad = () => {
         </span>
       </h3>
       <div className="grid grid-cols-3 text-center gap-4">
-        <div className="bg-star rounded-[4px] text-white bg-cover h-[250px] bg-no-repeat">
-          <div className="bg-shadowstar w-full items-end h-full flex rounded-[4px]">
+        <div className="bg-star rounded-m text-white bg-cover h-[250px] bg-no-repeat">
+          <div className="bg-shadowstar w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
               <Image className="" src={logostar} alt="Logo disney+" />
               <div className="flex flex-col text-left leading-6">
@@ -27,8 +27,8 @@ const Ad = () => {
             </div>
           </div>
         </div>
-        <div className="bg-hbo rounded-[4px] text-white bg-cover h-[250px] bg-no-repeat">
-          <div className="bg-shadowhbo w-full items-end h-full flex rounded-[4px]">
+        <div className="bg-hbo rounded-m text-white bg-cover h-[250px] bg-no-repeat">
+          <div className="bg-shadowhbo w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
               <Image className="" src={logohbo} alt="Logo disney+" />
               <div className="flex flex-col text-left leading-6">
@@ -39,8 +39,8 @@ const Ad = () => {
             </div>
           </div>
         </div>
-        <div className="bg-paramount rounded-[4px] text-white bg-cover h-[250px] bg-no-repeat">
-          <div className="bg-shadowparamount w-full items-end h-full flex rounded-[4px]">
+        <div className="bg-paramount rounded-m text-white bg-cover h-[250px] bg-no-repeat">
+          <div className="bg-shadowparamount w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
               <Image className="" src={logoparamount} alt="Logo disney+" />
               <div className="flex flex-col text-left leading-6">

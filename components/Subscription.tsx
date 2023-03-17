@@ -9,7 +9,7 @@ import shipping from "@/public/images/shipping.svg";
 
 const Subscription = () => {
   return (
-    <section className="bg-white rounded-[4px] w-full text-[15px] shadow-extranarrow mb-20">
+    <section className="bg-white rounded-m w-full text-[15px] shadow-extranarrow mb-20">
       <div className="bg-susbcribe text-white flex justify-between rounded-t-[4px] px-6 py-4">
         <div className="text-[26px] flex items-center">
           Suscríbete al nivel 6
