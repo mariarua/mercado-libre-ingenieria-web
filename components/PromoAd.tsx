@@ -1,10 +1,12 @@
 import React from "react";
+import cn from "clsx";
 
 import Image, { StaticImageData } from "next/image";
 
 import furniture from "@/public/images/discover-furniture.jpg";
 
 type PromoAdProps = {
+  className?: string;
   src: StaticImageData | string;
   alt: string;
   title: string;
@@ -14,6 +16,7 @@ type PromoAdProps = {
 };
 
 const PromoAd = ({
+  className = "",
   src = furniture,
   alt = "Promocion de muebles",
   title = "Renueva tus espacios",
@@ -22,8 +25,13 @@ const PromoAd = ({
   buttonText = "Ver más",
 }: PromoAdProps) => {
   return (
-    <div className="bg-white flex justify-between rounded-[4px] shadow-extranarrow w-full w-max-[585px]">
-      <div className="items-center pl-8 pr-7 py-14 font-medium">
+    <div
+      className={cn(
+        "bg-white flex justify-between rounded-m shadow-extranarrow",
+        className
+      )}
+    >
+      <div className="flex flex-col justify-center px-5 font-medium w-1/2">
         <span className="uppercase text-xs tracking-[0.3em] text-[#4B4B4B] block mb-3">
           {title}
         </span>
@@ -37,7 +45,13 @@ const PromoAd = ({
           {buttonText}
         </button>
       </div>
-      <Image className="rounded-[4px]" src={src} alt={alt} height={250} />
+      <div className="w-1/2 flex justify-end">
+        <Image
+          className="rounded-m w-auto h-full object-cover object-left"
+          src={src}
+          alt={alt}
+        />
+      </div>
     </div>
   );
 };

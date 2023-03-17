@@ -23,8 +23,8 @@ const Category = () => {
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">
         Categorías populares
       </h3>
-      <div className="bg-white grid grid-cols-7 ">
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+      <div className="bg-white grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category1}
@@ -36,7 +36,7 @@ const Category = () => {
             Carros, Motos y Otros
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category2}
@@ -48,7 +48,7 @@ const Category = () => {
             Computación
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category3}
@@ -60,7 +60,7 @@ const Category = () => {
             Ropa y Accesorios
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category4}
@@ -72,7 +72,7 @@ const Category = () => {
             Hogar y Muebles
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category5}
@@ -84,7 +84,7 @@ const Category = () => {
             Accesorios para Vehículos
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category6}
@@ -96,7 +96,7 @@ const Category = () => {
             Electrodomésticos
           </span>
         </button>
-        <button className="border-solid border-b-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category7}
@@ -108,7 +108,7 @@ const Category = () => {
             Cámaras y Accesorios
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category8}
@@ -120,7 +120,7 @@ const Category = () => {
             Celulares y Teléfonos
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category9}
@@ -132,7 +132,7 @@ const Category = () => {
             Belleza y Cuidado Personal
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category10}
@@ -144,7 +144,7 @@ const Category = () => {
             Deportes y Fitness
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category11}
@@ -156,7 +156,7 @@ const Category = () => {
             Electrónica, Audio y Video
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category12}
@@ -168,7 +168,7 @@ const Category = () => {
             Consolas y Videojuegos
           </span>
         </button>
-        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] border-r-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category13}
@@ -180,7 +180,7 @@ const Category = () => {
             Juegos y Juguetes
           </span>
         </button>
-        <button className="border-solid border-b-[1px] py-11 px-3 grid w-[170px] h-[170]">
+        <button className="border-solid border-b-[1px] py-11 px-3 grid">
           <Image
             className="mx-auto mb-3"
             src={category14}

@@ -10,8 +10,8 @@ import viewmore from "@/public/images/view-more.svg";
 
 const PaymentInfo = () => {
   return (
-    <section className="flex justify-between bg-white rounded-[4px] mb-12 shadow-extranarrow text-[15px]">
-      <div className="flex cursor-pointer mr-20">
+    <section className="flex justify-between bg-white w-full rounded-m mb-12 shadow-extranarrow text-[15px]">
+      <div className="flex cursor-pointer">
         <Image
           className="mx-5 mt-4 mb-5"
           src={creditcard}
