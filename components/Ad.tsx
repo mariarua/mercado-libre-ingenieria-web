@@ -19,7 +19,7 @@ const Ad = () => {
         <div className="bg-star rounded-m text-white bg-cover h-[250px] bg-no-repeat">
           <div className="bg-shadowstar w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
-              <Image className="" src={logostar} alt="Logo disney+" />
+              <Image className="" src={logostar} alt="Logo disney+ y star+" />
               <div className="flex flex-col text-left leading-6">
                 <span className="text-[22px]">Sin cargo con el nivel 6</span>
                 <span className="font-light text-[15px]">Disney+ y Star+</span>
@@ -30,7 +30,7 @@ const Ad = () => {
         <div className="bg-hbo rounded-m text-white bg-cover h-[250px] bg-no-repeat">
           <div className="bg-shadowhbo w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
-              <Image className="" src={logohbo} alt="Logo disney+" />
+              <Image className="" src={logohbo} alt="Logo hbo" />
               <div className="flex flex-col text-left leading-6">
                 <span className="text-[11px]">7 DÍAS GRATIS</span>
                 <span className="text-[22px]">Hasta 50% OFF</span>
@@ -42,7 +42,7 @@ const Ad = () => {
         <div className="bg-paramount rounded-m text-white bg-cover h-[250px] bg-no-repeat">
           <div className="bg-shadowparamount w-full items-end h-full flex rounded-m">
             <div className="flex items-center p-2 gap-4">
-              <Image className="" src={logoparamount} alt="Logo disney+" />
+              <Image className="" src={logoparamount} alt="Logo paramount" />
               <div className="flex flex-col text-left leading-6">
                 <span className="text-[11px]">7 DÍAS GRATIS</span>
                 <span className="text-[22px]">Hasta 50% OFF</span>
