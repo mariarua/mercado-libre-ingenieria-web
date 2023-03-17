@@ -26,6 +26,15 @@ module.exports = {
       },
       backgroundImage: {
         susbcribe: "linear-gradient(90deg,#a90f90 55%,#0c1a51)",
+        star: "url('../public/images/ad/STAR+.svg')",
+        shadowstar:
+          "linear-gradient(0deg, rgb(8,19,48) 0%, rgba(8,19,48, 0.0001) 100%)",
+        hbo: "url('../public/images/ad/HBO.svg')",
+        shadowhbo:
+          "linear-gradient(0deg, rgb(60,3,78) 0%, rgba(60,3,78, 0.0001) 100%)",
+        paramount: "url('../public/images/ad/PARAMOUNT.svg')",
+        shadowparamount:
+          "linear-gradient(0deg, rgb(0,100,255) 0%, rgba(0,100,255, 0.0001) 100%)",
       },
     },
   },
