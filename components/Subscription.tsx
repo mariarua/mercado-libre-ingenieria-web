@@ -9,12 +9,18 @@ import shipping from "@/public/images/shipping.svg";
 
 const Subscription = () => {
   return (
-    <section className="bg-white rounded-[4px] text-[15px] shadow-extranarrow mb-20">
-      <Image
-        className="w-full rounded-t-[4px]"
-        src={subscription}
-        alt="Banner de suscripciones"
-      />
+    <section className="bg-white rounded-m w-full text-[15px] shadow-extranarrow mb-20">
+      <div className="bg-susbcribe text-white flex justify-between rounded-t-[4px] px-6 py-4">
+        <div className="text-[26px] flex items-center">
+          Suscríbete al nivel 6
+        </div>
+        <div className="flex flex-col relative before:content[''] before:absolute before:top-0 before:left-[-8px] before:h-full before:bg-white before:w-[2px]">
+          <span className="line-through text-sm">$ 50.690</span>
+          <span className="text-2xl">
+            $ 17.899<span className="text-sm"> /mes</span>
+          </span>
+        </div>
+      </div>
       <p className="px-5 pt-6 pb-8">
         Consigue los mejores beneficios en Mercado libre
       </p>

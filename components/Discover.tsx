@@ -7,9 +7,9 @@ import subscription from "@/public/images/discover-subscription.jpg";
 
 const Discover = () => {
   return (
-    <section className="mb-14">
+    <section className="mb-14 w-full">
       <h3 className="text-[25px] text-[#666666] font-thin mb-4">Descubre </h3>
-      <div className="flex gap-4">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <PromoAd
           src={furniture}
           alt="Promocion de muebles"

@@ -2,9 +2,9 @@ import React from "react";
 
 const ToolBar = () => {
   return (
-    <div className="flex text-[13px] w-full py-3">
-      <button className="ml-44 mr-20">Ingresa tu domicilio</button>
-      <nav className="text-black/50 mr-36">
+    <div className="flex text-[13px] justify-between w-desktop max-w-full mx-auto py-3">
+      <button className="">Ingresa tu domicilio</button>
+      <nav className="text-black/50">
         <ul className="flex justify-between">
           <select
             className="bg-primary px-2"
@@ -34,7 +34,7 @@ const ToolBar = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex mr-40">
+      <div className="flex">
         <button className="mx-1">Crea tu cuenta</button>
         <button className="mx-1">Ingresa</button>
         <button className="mx-1">Mis compras</button>

@@ -36,7 +36,7 @@ const BranchCard = ({
   companyName = "Lego",
 }: BrachCardProps) => {
   return (
-    <div className="bg-white rounded-[4px] shadow-extranarrow">
+    <div className="bg-white rounded-m shadow-extranarrow w-full">
       <div className="mb-14 relative">
         <Image
           className="rounded-t-[4px]"
@@ -47,7 +47,7 @@ const BranchCard = ({
         />
         <div className="absolute top-[55px] left-[102px]">
           <Image
-            className="rounded-[4px] shadow-m border-solid border-[1px]"
+            className="rounded-m shadow-m border-solid border-[1px]"
             src={srcLogo}
             alt={altLogo}
             width={80}
@@ -62,21 +62,21 @@ const BranchCard = ({
       </div>
       <div className="flex justify-center gap-1.5 mb-5">
         <Image
-          className="rounded-[4px] border-solid border-[1px]"
+          className="rounded-m border-solid border-[1px]"
           src={srcProduct1}
           alt={altProduct1}
           width={70}
           height={70}
         />
         <Image
-          className="rounded-[4px] border-solid border-[1px]"
+          className="rounded-m border-solid border-[1px]"
           src={srcProduct2}
           alt={altProduct2}
           width={70}
           height={70}
         />
         <Image
-          className="rounded-[4px] border-solid border-[1px]"
+          className="rounded-m border-solid border-[1px]"
           src={srcProduct3}
           alt={altProduct3}
           width={70}
